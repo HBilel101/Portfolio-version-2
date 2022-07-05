@@ -1,17 +1,20 @@
 {
   "name": "simplefolio",
+  "homepage": "https://HBilel101.github.io/Portfolio-version-2",
   "version": "1.0.1",
   "private": "true",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
